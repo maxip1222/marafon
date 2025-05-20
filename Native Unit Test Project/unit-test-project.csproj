@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\main-project\marafon.csproj">
+    <ProjectReference Include="..\main-project\main-project.csproj">
       <Project>{39672d9b-ff69-411c-b3f8-0f3f1abab579}</Project>
-      <Name>marafon</Name>
+      <Name>main-project</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
